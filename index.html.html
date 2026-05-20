@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Linith Michaelin - Portfolio</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background:linear-gradient(135deg,#0f172a,#1e293b); /* Premium Dark Gradient */
+      color:white;
+    }
+
+    .card{
+      text-align:center;
+      padding:40px;
+      border-radius:20px;
+      background:rgba(255,255,255,0.08); /* Transparent Glass Effect */
+      backdrop-filter:blur(10px);
+      width:90%;
+      max-width:600px;
+      box-shadow:0 8px 30px rgba(0,0,0,0.3);
+    }
+
+    h1{
+      font-size:2.5rem;
+      margin-bottom:15px;
+    }
+
+    p{
+      color:#d1d5db;
+      margin-bottom:30px;
+      line-height:1.6;
+      font-size:1rem;
+    }
+
+    .buttons{
+      display:flex;
+      gap:15px;
+      justify-content:center;
+      flex-wrap:wrap;
+    }
+
+    button{
+      padding:12px 24px;
+      border:none;
+      border-radius:10px;
+      cursor:pointer;
+      font-size:1rem;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    /* Yes Button Style (Electric Blue) */
+    .yes-btn {
+      background:#3b82f6;
+      color:white;
+    }
+
+    /* No Button Style (Dark Charcoal) */
+    .no-btn {
+      background:#111827;
+      color:white;
+      border:1px solid #374151;
+    }
+
+    button:hover{
+      transform:translateY(-3px);
+      opacity:0.9;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <h1>Linith Michaelin Paulraj</h1>
+
+    <p>
+      BCA (Bachelor of Computer Applications) Student. <br>
+      Proficient in C, C++ Programming, and Python Data Analysis. <br>
+      Preparing for Professional Certifications & Internships.
+    </p>
+
+    <div class="buttons">
+      <button class="yes-btn" onclick="openYes()">
+        Open Yes
+      </button>
+
+      <button class="no-btn" onclick="openNo()">
+        Open No
+      </button>
+    </div>
+  </div>
+
+  <script>
+    /* Script section-la unga custom webpage matrum github links update seiyapatadhai */
+    
+    // Open Yes click panna unga name-la webpage open aagum
+    function openYes() {
+      window.open("https://linithmichaelin.web.app", "_blank");
+    }
+
+    // Open No click panna unga GitHub profile open aagum
+    function openNo() {
+      window.open("https://github.com/linith-michaelin", "_blank");
+    }
+  </script>
+
+</body>
+</html>
